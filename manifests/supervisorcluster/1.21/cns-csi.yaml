@@ -201,7 +201,6 @@ spec:
           key: "kubeadmNode"
           effect: "NoSchedule"
           value: "master"
-      hostNetwork: true
       priorityClassName: system-node-critical
       containers:
         - name: csi-provisioner

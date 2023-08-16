@@ -131,7 +131,6 @@ spec:
           key: "kubeadmNode"
           effect: "NoSchedule"
           value: "master"
-      hostNetwork: true
       containers:
         - name: csi-provisioner
           image: localhost:5000/vmware/csi-provisioner/csi-provisioner:v1.2.1_vmware.11

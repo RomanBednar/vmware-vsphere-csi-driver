@@ -209,7 +209,6 @@ spec:
         - operator: "Exists"
           key: "node-role.kubernetes.io/master"
           effect: "NoSchedule"
-      hostNetwork: true
       priorityClassName: system-node-critical
       containers:
         - name: csi-provisioner
